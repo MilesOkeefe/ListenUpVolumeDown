@@ -1,0 +1,23 @@
+{
+  "name": "ListenUpVolumeDown",
+  "version": "0.1.0",
+  "description": "Simple service which temporarily lowers your volume at the request of coworkers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "git+https://github.com/MilesOkeefe/ListenUpVolumeDown.git",
+  "keywords": [],
+  "author": "Miles OKeefe <miles.okeefe@gmail.com>",
+  "license": "MIT",
+  "buyarngs": {
+    "url": "https://github.com/MilesOkeefe/ListenUpVolumeDown/issues"
+  },
+  "homepage": "https://github.com/MilesOkeefe/ListenUpVolumeDown#readme",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.3",
+    "loudness": "^0.2.2"
+  }
+}
